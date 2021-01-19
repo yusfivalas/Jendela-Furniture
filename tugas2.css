@@ -1,0 +1,88 @@
+:root {
+	--orange-color: #FCB371;
+}
+body{
+	background: url(Images/Chairs.jpg) center rgba(42, 38, 61, 0.82);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-blend-mode: multiply;
+	font-family: 'Pacifico', cursive;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+.icon-image {
+	padding-bottom: 2%;
+	width: 150px;
+	height:160px;
+	margin-top: 4%; 
+}
+.space {
+	padding-bottom: 3%;	
+}
+p{
+	font-family: SF Pro Display;
+	color: white;
+	padding-top: 1%;
+	padding-bottom: 4%;
+}
+.oren{
+	color: var(--orange-color)
+}
+.button {
+	margin-left: 42%;
+	margin-top: 5%;
+}
+.tombol{
+	background-color: var(--orange-color);
+	color: white;
+}
+.outline {
+	border: 1px solid #FCB371;
+	color: var(--orange-color);
+	margin-right: 10px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+a.outline:hover {
+	color: white;
+}
+a.tombol:hover {
+	color: black;
+}
+@media screen and (max-width: 580px) {
+	.icon-image{
+		margin-top:25%;
+	}
+	.text{
+		margin-top:7%;
+	}
+	.oren{
+		margin-top: 3%;
+	}
+	p{
+		margin-top:5%;
+	}
+	.button{
+		margin:10% auto  auto 38%;
+	}
+	a.btn {
+		display: flex;
+		flex-direction: row;
+		width: 38%;
+	}
+	a.tombol{
+		margin-top: 5%;
+	}
+	a.outline{
+		padding-left:21px;
+
+	}
+}
+@media screen and (min-width: 600px) {
+	.button{
+		margin-left: 39%;
+		margin-bottom:7%;
+	}
+}

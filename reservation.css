@@ -1,0 +1,39 @@
+:root {
+	--orange-color: #FCB371;
+	--orange-darker: #fa851e;
+}
+body{
+	background: url(Images/karpet.jpg) center rgba(42, 38, 61, 0.82);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	background-blend-mode: multiply;
+	font-family: 'Helvetica', cursive;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: var(--orange-color);
+}
+a:hover{
+	text-decoration: none;
+	color: var(--orange-darker);
+}
+h1{
+	text-align: center;
+	margin-top: 2%;
+	font-family: 'Pacifico', cursive;
+	color: var(--orange-color);
+}
+i{
+	margin-top: 3%;
+	margin-left: 3%;
+}
+.tombol{
+	background-color: var(--orange-color);
+	color: white;
+	font-family: 'Pacifico', cursive;
+	margin-top: 15px;
+}
